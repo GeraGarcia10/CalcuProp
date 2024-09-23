@@ -73,7 +73,7 @@ fun TipTimeLayout() {
     val tipPercent = tipInput.toDoubleOrNull() ?: 0.0
     val amount = amountInput.toDoubleOrNull() ?: 0.0
     val tip = calculateTip(amount, tipPercent)
-
+    //Se hacen pruebas de funcionamiento en un celular fisico y funciona perfectamente hasta el momento
     Column(
         modifier = Modifier
             .statusBarsPadding()
